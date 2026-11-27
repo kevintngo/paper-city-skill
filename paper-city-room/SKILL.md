@@ -21,11 +21,8 @@ exception is a chat with no place in it at all (below).
 
 - **The place is the one the user wrote in their prompt:** on a template's `Place:` line, or anywhere else in
   their message or its notes. The template's name and its example picture are never the place.
-- **No place yet:** a template's `Place:` line still blank or still showing its `____`, and no place anywhere
-  else. Don't start and don't fetch anything. Ask in one short line which place to draw, with three quick ideas
-  of different kinds (a landmark, a busy street or market, somewhere of their own), all things a room can be:
-  outdoors, by day. Then stop there. When they
-  answer, that is the place: draw it at once, with no more questions.
+- **No place yet** (the user only pressed Create on the template, or left a `Place:` line blank): ask the three
+  questions in "No place yet" below, then draw from the answers.
 - **A landmark:** draw it. **A city only:** pick the one place everyone knows it by. **A kind of place or an
   invented one:** design it; choose a landmark for it (the tallest, oddest or best-loved thing there).
 - **Before you start, say in one or two lines what you will draw:** the landmark, the ground, and two or three
@@ -38,6 +35,23 @@ exception is a chat with no place in it at all (below).
   one line and draw the nearest thing that it can be (lanterns and lit signs for an evening; the building from
   outside for an interior).
 - Keep your words short. The user came for the picture, not for a report on how it was made.
+
+### No place yet: ask with a form
+
+The user may be a child, or someone who doesn't know what to type, so ask with choices they can tap. Before
+anything else (don't fetch this skill's files yet), use your tool for **asking the user questions with clickable
+options** (in fal Agent, a clarification question), and ask all three in one go, in these words:
+
+1. **Which city do you want to explore?** One choice: Istanbul, Tokyo, Paris, Rome, New York, Mexico City.
+   Free text on: "or type any city, a town, your hometown, or a place you make up".
+2. **What should be the star of your block?** One choice: its most famous landmark, a busy market, a park with a
+   fountain, a street of cafés and shops. Free text on: "or name it".
+3. **Who's out and about?** Any number: crowds of people, cats and dogs, street food sellers, buses, trams and
+   taxis, boats on the water, kids playing. Free text on: "anything else?".
+
+Without such a tool, ask the same three as a short numbered list with the choices in brackets, and stop. When the
+answers come, draw at once, with no more questions: the city and its star make the landmark ("its most famous
+landmark" is the one everyone knows the city by), and the third answer is the street life.
 
 ## 0. Get this skill's files
 
