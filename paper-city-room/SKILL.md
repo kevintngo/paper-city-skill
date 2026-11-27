@@ -16,10 +16,15 @@ can drag, zoom and tap.
 ## In a chat
 
 The user usually says very little: a place ("Sagrada Família"), a city ("Lisbon"), or a kind of place ("a ramen
-street at lunchtime", "my grandmother's farm"). That is enough. **Do not ask questions first; draw.**
+street at lunchtime", "my grandmother's farm"). That is enough. **Do not ask questions first; draw.** The one
+exception is a chat with no place in it at all (below).
 
-- **The place is the one the user wrote in their prompt.** A chat started from a template also carries the
-  template's name and an example place; neither is the place unless the user left it there.
+- **The place is the one the user wrote in their prompt:** on a template's `Place:` line, or anywhere else in
+  their message or its notes. The template's name and its example picture are never the place.
+- **No place yet:** a template's `Place:` line still blank or still showing its `____`, and no place anywhere
+  else. Don't start and don't fetch anything. Ask in one short line which place to draw, with three quick ideas
+  of different kinds (a landmark, a busy street or market, somewhere of their own), and stop there. When they
+  answer, that is the place: draw it at once, with no more questions.
 - **A landmark:** draw it. **A city only:** pick the one place everyone knows it by. **A kind of place or an
   invented one:** design it; choose a landmark for it (the tallest, oddest or best-loved thing there).
 - **Before you start, say in one or two lines what you will draw:** the landmark, the ground, and two or three
