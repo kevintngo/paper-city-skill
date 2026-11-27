@@ -23,7 +23,8 @@ exception is a chat with no place in it at all (below).
   their message or its notes. The template's name and its example picture are never the place.
 - **No place yet:** a template's `Place:` line still blank or still showing its `____`, and no place anywhere
   else. Don't start and don't fetch anything. Ask in one short line which place to draw, with three quick ideas
-  of different kinds (a landmark, a busy street or market, somewhere of their own), and stop there. When they
+  of different kinds (a landmark, a busy street or market, somewhere of their own), all things a room can be:
+  outdoors, by day. Then stop there. When they
   answer, that is the place: draw it at once, with no more questions.
 - **A landmark:** draw it. **A city only:** pick the one place everyone knows it by. **A kind of place or an
   invented one:** design it; choose a landmark for it (the tallest, oddest or best-loved thing there).
