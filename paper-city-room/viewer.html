@@ -11945,7 +11945,12 @@ function buildUI(world, view) {
       if (ui._hashT > 0.6) {
         ui._hashT = 0;
         const h = `#${view.target.x.toFixed(1)},${view.target.z.toFixed(1)},${view.ppm.toFixed(1)}`;
-        if (h !== ui._hash && view.touched) { ui._hash = h; history.replaceState(null, '', h); }
+        // remembers the view in the address; a page with no address of its own (a preview panel's sandboxed
+        // srcdoc frame) refuses, and then the view is simply not remembered
+        if (h !== ui._hash && view.touched && !ui._noHash) {
+          ui._hash = h;
+          try { history.replaceState(null, '', h); } catch { ui._noHash = true; }
+        }
       }
     },
   };

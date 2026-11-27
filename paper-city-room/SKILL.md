@@ -18,6 +18,8 @@ can drag, zoom and tap.
 The user usually says very little: a place ("Sagrada Família"), a city ("Lisbon"), or a kind of place ("a ramen
 street at lunchtime", "my grandmother's farm"). That is enough. **Do not ask questions first; draw.**
 
+- **The place is the one the user wrote in their prompt.** A chat started from a template also carries the
+  template's name and an example place; neither is the place unless the user left it there.
 - **A landmark:** draw it. **A city only:** pick the one place everyone knows it by. **A kind of place or an
   invented one:** design it; choose a landmark for it (the tallest, oddest or best-loved thing there).
 - **Before you start, say in one or two lines what you will draw:** the landmark, the ground, and two or three
