@@ -31,18 +31,20 @@ street at lunchtime", "my grandmother's farm"). That is enough. **Do not ask que
   outside for an interior).
 - Keep your words short. The user came for the picture, not for a report on how it was made.
 
-## 0. Find this skill's files
+## 0. Get this skill's files
 
 This skill is a folder: `SKILL.md`, `build.py`, `viewer.html` (2 MB: the engine), `references/` and `images/`.
-If it came as a zip, unzip it. If you have only this text and the files are not in your workspace, fetch the
-folder before anything else:
+**A skill installed from GitHub (fal Agent's Skills page) brings only the markdown,** so first look for
+`viewer.html` and `build.py` beside this file. If either is missing, fetch the whole folder into your workspace:
 
 ```sh
-git clone --depth 1 https://github.com/kevintngo/paper-city-skill && ls paper-city-skill/paper-city-room
+git clone --depth 1 https://github.com/kevintngo/paper-city-skill && cd paper-city-skill/paper-city-room && ls
 ```
 
-(or download `https://github.com/kevintngo/paper-city-skill/archive/refs/heads/main.zip` and unzip it). Every
-path below is inside that folder. Do not go on without `viewer.html`: it cannot be written from memory.
+Without git: `curl -L -o skill.zip https://github.com/kevintngo/paper-city-skill/archive/refs/heads/main.zip`
+and unzip it (the folder is `paper-city-skill-main/paper-city-room`). If the skill came as a zip, unzip that
+instead. Every path below is inside that folder. Do not go on without `viewer.html`: it cannot be written from
+memory, and a room drawn any other way is not a Paper City room.
 
 ## How it looks
 
